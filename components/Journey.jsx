@@ -6,7 +6,7 @@ const Journey = () => {
     <section id="journey">
       <div className="container mx-auto">
         <AnimatedText
-          text="Требования / Типы траспорта / Калькулятор"
+          text="Требования / Типы транспорта / Калькулятор"
           textStyles="h3 mb-[20px] text-center"
         />
         <Cards />
