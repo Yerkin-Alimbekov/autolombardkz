@@ -1,5 +1,6 @@
 import { Inter, Bebas_Neue } from "next/font/google";
 import "./globals.css";
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 const inter = Inter({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
@@ -23,6 +24,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`antialiased ${inter.variable} ${bebasNeue.variable}`}>
         {children}
+        <GoogleAnalytics gaId="G-CC3SW4T50C" />
       </body>
     </html>
   );
