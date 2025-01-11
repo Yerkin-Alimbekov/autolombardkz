@@ -15,8 +15,8 @@ const bebasNeue = Bebas_Neue({
 });
 
 export const metadata = {
-  title: "Автоломбард в Алматы - кредиты под залог авто с правом управления и без",
-  description: "Ломбард автомобилей под залог авто",
+  title: "Автоломбард Алматы",
+  description: "Автоломбард Прогресс, кредиты под залог авто с правом управления и без",
 };
 
 export default function RootLayout({ children }) {

@@ -34,6 +34,18 @@ const slides = [
     message:
       "Выдали мы 10 000 000 тенге. С правом управления.",
   },
+  {
+    img: "/assets/testimonial/img-4.JPG",
+    name: "Mercedes-Benz ML 350, 2013г.в.",
+    message:
+      "Выдали мы 9 000 000 тенге. Без права управления.",
+  },
+  {
+    img: "/assets/testimonial/img-5.JPG",
+    name: "Range Rover, 2014 г.в.",
+    message:
+      "Выдали мы 7 000 000 тенге. С правом управления.",
+  },
 ];
 
 const Testimonial = () => {
