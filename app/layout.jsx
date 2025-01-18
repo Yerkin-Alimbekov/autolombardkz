@@ -1,7 +1,7 @@
 import { Inter, Bebas_Neue } from "next/font/google";
 import "./globals.css";
-import { GoogleAnalytics } from '@next/third-parties/google'
-import { SpeedInsights } from "@vercel/speed-insights/next"
+import { GoogleAnalytics } from '@next/third-parties/google';
+
 
 const inter = Inter({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
@@ -22,11 +22,10 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="ru">
       <body className={`antialiased ${inter.variable} ${bebasNeue.variable}`}>
         {children}
         <GoogleAnalytics gaId="G-CC3SW4T50C" />
-        <SpeedInsights />
       </body>
     </html>
   );
