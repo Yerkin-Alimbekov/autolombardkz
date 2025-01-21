@@ -34,13 +34,13 @@ const Header = () => {
             <div className="flex flex-col mb-1 text-white">
               <div className="flex text-[12px] gap-2">
                 <FaPhone className="text-accent text-[14px]"/>
-                   <p>+7 775 007 1890</p>
+                   <p>+7 775 007 3395</p>
                   </div>
              </div>
              <div className="flex flex-col mb-[-15px] text-white">
               <div className="flex text-[12px] gap-2">
                 <FaWhatsapp className="text-accent text-[17px]"/>
-                   <p>+7 701 419 3390</p>
+                   <p>+7 701 419 1890</p>
                   </div>
              </div>
           </div>
